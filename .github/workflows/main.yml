@@ -2,11 +2,11 @@ on:
   push:
     branches:
       - main
-      - feature/tests
+      - feature/nre-feature 
   pull_request:
     branches:
       - main
-      - feature/tests
+      - feature/new-feature
 jobs:
   build:
     runs-on: ubuntu-latest
